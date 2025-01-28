@@ -1,4 +1,5 @@
 package cuentas;
+//Paquete cuentas dentro del proyecto Deposito
 
 public class CCuenta {
 
@@ -50,7 +51,12 @@ public class CCuenta {
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
-    
+     
+    /**
+ * Devuelve el saldo actual de la cuenta.
+ * @return Saldo de la cuenta.
+ */
+  
     public double estado()
     {
         return saldo;
